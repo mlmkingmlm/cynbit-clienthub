@@ -1,7 +1,7 @@
 
 import mongoose from "mongoose";
 import Project from "../models/Project.js";
-import User from "../models/user.js";
+import User from "../models/User.js";
 
 // Calculate project progress from completed milestones
 const calculateProgress = (milestones) => {
